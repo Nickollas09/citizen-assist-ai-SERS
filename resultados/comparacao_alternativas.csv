@@ -1,0 +1,9 @@
+familia,alternativa,renovavel,consumo_base_kwh_mes,conta_base_rs_mes,kwh_rede_evitados_mes,investimento_rs,economia_ano1_rs,conta_apos_rs_mes,payback_anos,vpl_10a_6pct_rs,saldo_10a_rs,co2_evitado_kg_ano
+Família A (com Tarifa Social),A1 · Eficiência e hábitos,não,197.79,119.38,57.1,72.0,694.2,61.53,0.1,5037.37,6870.0,41.0
+Família A (com Tarifa Social),A2 · Aquecedor solar de água,sim,197.79,119.38,57.2,5000,695.64,61.41,8.69,-763.24,756.4,41.1
+Família A (com Tarifa Social),A3 · Solar fotovoltaica,sim,197.79,119.38,116.3,3740.0,1207.08,18.79,3.19,4709.02,7700.56,26.4
+Família A (com Tarifa Social),A1+A2 · Hábitos + aquecedor solar,sim,197.79,119.38,91.0,5072.0,1107.12,27.12,5.14,2193.29,4799.2,65.4
+Família B (sem Tarifa Social),A1 · Eficiência e hábitos,não,197.79,200.46,57.1,72.0,694.2,142.61,0.1,5037.37,6870.0,41.0
+Família B (sem Tarifa Social),A2 · Aquecedor solar de água,sim,197.79,200.46,57.2,5000,695.64,142.49,8.69,-763.24,756.4,41.1
+Família B (sem Tarifa Social),A3 · Solar fotovoltaica,sim,197.79,200.46,174.3,5610.0,1810.68,49.57,3.19,7063.54,11550.84,39.6
+Família B (sem Tarifa Social),A1+A2 · Hábitos + aquecedor solar,sim,197.79,200.46,91.0,5072.0,1107.12,108.2,5.14,2193.29,4799.2,65.4

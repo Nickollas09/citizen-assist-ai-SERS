@@ -1,0 +1,89 @@
+familia,alternativa,ano,fluxo_rs,acumulado_rs
+Família A (com Tarifa Social),A1 · Eficiência e hábitos,0,-72.0,-72.0
+Família A (com Tarifa Social),A1 · Eficiência e hábitos,1,694.2,622.2
+Família A (com Tarifa Social),A1 · Eficiência e hábitos,2,694.2,1316.4
+Família A (com Tarifa Social),A1 · Eficiência e hábitos,3,694.2,2010.6
+Família A (com Tarifa Social),A1 · Eficiência e hábitos,4,694.2,2704.8
+Família A (com Tarifa Social),A1 · Eficiência e hábitos,5,694.2,3399.0
+Família A (com Tarifa Social),A1 · Eficiência e hábitos,6,694.2,4093.2
+Família A (com Tarifa Social),A1 · Eficiência e hábitos,7,694.2,4787.4
+Família A (com Tarifa Social),A1 · Eficiência e hábitos,8,694.2,5481.6
+Família A (com Tarifa Social),A1 · Eficiência e hábitos,9,694.2,6175.8
+Família A (com Tarifa Social),A1 · Eficiência e hábitos,10,694.2,6870.0
+Família A (com Tarifa Social),A2 · Aquecedor solar de água,0,-5000,-5000
+Família A (com Tarifa Social),A2 · Aquecedor solar de água,1,575.64,-4424.36
+Família A (com Tarifa Social),A2 · Aquecedor solar de água,2,575.64,-3848.72
+Família A (com Tarifa Social),A2 · Aquecedor solar de água,3,575.64,-3273.08
+Família A (com Tarifa Social),A2 · Aquecedor solar de água,4,575.64,-2697.44
+Família A (com Tarifa Social),A2 · Aquecedor solar de água,5,575.64,-2121.8
+Família A (com Tarifa Social),A2 · Aquecedor solar de água,6,575.64,-1546.16
+Família A (com Tarifa Social),A2 · Aquecedor solar de água,7,575.64,-970.52
+Família A (com Tarifa Social),A2 · Aquecedor solar de água,8,575.64,-394.88
+Família A (com Tarifa Social),A2 · Aquecedor solar de água,9,575.64,180.76
+Família A (com Tarifa Social),A2 · Aquecedor solar de água,10,575.64,756.4
+Família A (com Tarifa Social),A3 · Solar fotovoltaica,0,-3740.0,-3740.0
+Família A (com Tarifa Social),A3 · Solar fotovoltaica,1,1207.08,-2532.92
+Família A (com Tarifa Social),A3 · Solar fotovoltaica,2,1160.04,-1372.88
+Família A (com Tarifa Social),A3 · Solar fotovoltaica,3,1154.16,-218.72
+Família A (com Tarifa Social),A3 · Solar fotovoltaica,4,1148.4,929.68
+Família A (com Tarifa Social),A3 · Solar fotovoltaica,5,1142.64,2072.32
+Família A (com Tarifa Social),A3 · Solar fotovoltaica,6,1137.0,3209.32
+Família A (com Tarifa Social),A3 · Solar fotovoltaica,7,1131.24,4340.56
+Família A (com Tarifa Social),A3 · Solar fotovoltaica,8,1125.6,5466.16
+Família A (com Tarifa Social),A3 · Solar fotovoltaica,9,1119.96,6586.12
+Família A (com Tarifa Social),A3 · Solar fotovoltaica,10,1114.44,7700.56
+Família A (com Tarifa Social),A1+A2 · Hábitos + aquecedor solar,0,-5072.0,-5072.0
+Família A (com Tarifa Social),A1+A2 · Hábitos + aquecedor solar,1,987.12,-4084.88
+Família A (com Tarifa Social),A1+A2 · Hábitos + aquecedor solar,2,987.12,-3097.76
+Família A (com Tarifa Social),A1+A2 · Hábitos + aquecedor solar,3,987.12,-2110.64
+Família A (com Tarifa Social),A1+A2 · Hábitos + aquecedor solar,4,987.12,-1123.52
+Família A (com Tarifa Social),A1+A2 · Hábitos + aquecedor solar,5,987.12,-136.4
+Família A (com Tarifa Social),A1+A2 · Hábitos + aquecedor solar,6,987.12,850.72
+Família A (com Tarifa Social),A1+A2 · Hábitos + aquecedor solar,7,987.12,1837.84
+Família A (com Tarifa Social),A1+A2 · Hábitos + aquecedor solar,8,987.12,2824.96
+Família A (com Tarifa Social),A1+A2 · Hábitos + aquecedor solar,9,987.12,3812.08
+Família A (com Tarifa Social),A1+A2 · Hábitos + aquecedor solar,10,987.12,4799.2
+Família B (sem Tarifa Social),A1 · Eficiência e hábitos,0,-72.0,-72.0
+Família B (sem Tarifa Social),A1 · Eficiência e hábitos,1,694.2,622.2
+Família B (sem Tarifa Social),A1 · Eficiência e hábitos,2,694.2,1316.4
+Família B (sem Tarifa Social),A1 · Eficiência e hábitos,3,694.2,2010.6
+Família B (sem Tarifa Social),A1 · Eficiência e hábitos,4,694.2,2704.8
+Família B (sem Tarifa Social),A1 · Eficiência e hábitos,5,694.2,3399.0
+Família B (sem Tarifa Social),A1 · Eficiência e hábitos,6,694.2,4093.2
+Família B (sem Tarifa Social),A1 · Eficiência e hábitos,7,694.2,4787.4
+Família B (sem Tarifa Social),A1 · Eficiência e hábitos,8,694.2,5481.6
+Família B (sem Tarifa Social),A1 · Eficiência e hábitos,9,694.2,6175.8
+Família B (sem Tarifa Social),A1 · Eficiência e hábitos,10,694.2,6870.0
+Família B (sem Tarifa Social),A2 · Aquecedor solar de água,0,-5000,-5000
+Família B (sem Tarifa Social),A2 · Aquecedor solar de água,1,575.64,-4424.36
+Família B (sem Tarifa Social),A2 · Aquecedor solar de água,2,575.64,-3848.72
+Família B (sem Tarifa Social),A2 · Aquecedor solar de água,3,575.64,-3273.08
+Família B (sem Tarifa Social),A2 · Aquecedor solar de água,4,575.64,-2697.44
+Família B (sem Tarifa Social),A2 · Aquecedor solar de água,5,575.64,-2121.8
+Família B (sem Tarifa Social),A2 · Aquecedor solar de água,6,575.64,-1546.16
+Família B (sem Tarifa Social),A2 · Aquecedor solar de água,7,575.64,-970.52
+Família B (sem Tarifa Social),A2 · Aquecedor solar de água,8,575.64,-394.88
+Família B (sem Tarifa Social),A2 · Aquecedor solar de água,9,575.64,180.76
+Família B (sem Tarifa Social),A2 · Aquecedor solar de água,10,575.64,756.4
+Família B (sem Tarifa Social),A3 · Solar fotovoltaica,0,-5610.0,-5610.0
+Família B (sem Tarifa Social),A3 · Solar fotovoltaica,1,1810.68,-3799.32
+Família B (sem Tarifa Social),A3 · Solar fotovoltaica,2,1740.0,-2059.32
+Família B (sem Tarifa Social),A3 · Solar fotovoltaica,3,1731.24,-328.08
+Família B (sem Tarifa Social),A3 · Solar fotovoltaica,4,1722.6,1394.52
+Família B (sem Tarifa Social),A3 · Solar fotovoltaica,5,1713.96,3108.48
+Família B (sem Tarifa Social),A3 · Solar fotovoltaica,6,1705.44,4813.92
+Família B (sem Tarifa Social),A3 · Solar fotovoltaica,7,1696.92,6510.84
+Família B (sem Tarifa Social),A3 · Solar fotovoltaica,8,1688.4,8199.24
+Família B (sem Tarifa Social),A3 · Solar fotovoltaica,9,1680.0,9879.24
+Família B (sem Tarifa Social),A3 · Solar fotovoltaica,10,1671.6,11550.84
+Família B (sem Tarifa Social),A1+A2 · Hábitos + aquecedor solar,0,-5072.0,-5072.0
+Família B (sem Tarifa Social),A1+A2 · Hábitos + aquecedor solar,1,987.12,-4084.88
+Família B (sem Tarifa Social),A1+A2 · Hábitos + aquecedor solar,2,987.12,-3097.76
+Família B (sem Tarifa Social),A1+A2 · Hábitos + aquecedor solar,3,987.12,-2110.64
+Família B (sem Tarifa Social),A1+A2 · Hábitos + aquecedor solar,4,987.12,-1123.52
+Família B (sem Tarifa Social),A1+A2 · Hábitos + aquecedor solar,5,987.12,-136.4
+Família B (sem Tarifa Social),A1+A2 · Hábitos + aquecedor solar,6,987.12,850.72
+Família B (sem Tarifa Social),A1+A2 · Hábitos + aquecedor solar,7,987.12,1837.84
+Família B (sem Tarifa Social),A1+A2 · Hábitos + aquecedor solar,8,987.12,2824.96
+Família B (sem Tarifa Social),A1+A2 · Hábitos + aquecedor solar,9,987.12,3812.08
+Família B (sem Tarifa Social),A1+A2 · Hábitos + aquecedor solar,10,987.12,4799.2

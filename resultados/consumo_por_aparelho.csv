@@ -1,0 +1,11 @@
+aparelho,kwh_mes,participacao_pct,tipo_dado,fonte
+Chuveiro elétrico (posição inverno),87.99,44.5,estimado,R17;R18
+Geladeira 2 portas antiga (>10 anos),55.0,27.8,estimado,R17
+Lâmpada incandescente/halógena 60 W,10.8,5.5,estimado,R17
+Lâmpada fluorescente compacta 15 W,9.0,4.6,estimado,R17
+Televisor LED 42 pol.,15.0,7.6,estimado,R17
+Micro-ondas,5.0,2.5,estimado,R17
+Ferro de passar,7.2,3.6,real/público,R17
+Tanquinho / lavadora semiautomática,1.8,0.9,real/público,R17
+Standby e carregadores (roteador; celulares; TV),6.0,3.0,estimado,R17
+TOTAL,197.79,100,,

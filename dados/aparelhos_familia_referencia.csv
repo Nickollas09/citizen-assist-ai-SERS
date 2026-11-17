@@ -1,0 +1,10 @@
+aparelho,quantidade,potencia_w,uso_horas_dia,dias_mes,consumo_fixo_kwh_mes,tipo_dado,fonte,observacao
+Chuveiro elétrico (posição inverno),1,5500,0.5333,30,,estimado,R17;R18,4 banhos de 8 min por dia (32 min)
+Geladeira 2 portas antiga (>10 anos),1,,,,55.0,estimado,R17,Idec/Eletrobras: 48 kWh/mes para 2 portas; +15% por idade e vedação gasta
+Lâmpada incandescente/halógena 60 W,2,60,3,30,,estimado,R17,sala e cozinha
+Lâmpada fluorescente compacta 15 W,4,15,5,30,,estimado,R17,quartos e banheiro
+Televisor LED 42 pol.,1,100,5,30,,estimado,R17,
+Micro-ondas,1,1000,0.1667,30,,estimado,R17,10 min por dia
+Ferro de passar,1,,,,7.2,real/público,R17,Eletrobras: 12 h/mes com termostato
+Tanquinho / lavadora semiautomática,1,,,,1.8,real/público,R17,0.15 kWh/ciclo x 12 ciclos
+Standby e carregadores (roteador; celulares; TV),1,,,,6.0,estimado,R17,

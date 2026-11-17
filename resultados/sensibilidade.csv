@@ -1,0 +1,23 @@
+familia,cenario,alternativa,investimento,economia_ano1,payback_anos,vpl_10a
+Família A (com Tarifa Social),base,A1 · Eficiência e hábitos,72.0,694.2,0.1,5037.37
+Família A (com Tarifa Social),base,A2 · Aquecedor solar de água,5000,695.64,8.69,-763.24
+Família A (com Tarifa Social),base,A3 · Solar fotovoltaica,3740.0,1207.08,3.19,4709.02
+Família A (com Tarifa Social),base,A1+A2 · Hábitos + aquecedor solar,5072.0,1107.12,5.14,2193.29
+Família A (com Tarifa Social),A1 com só 50% de adesão aos hábitos,A1 · Eficiência e hábitos,72.0,347.16,0.21,2483.13
+Família A (com Tarifa Social),A2 custo mínimo (R$ 4.180),A2 · Aquecedor solar de água,4180,695.64,7.26,56.76
+Família A (com Tarifa Social),A2 custo alto (R$ 7.000),A2 · Aquecedor solar de água,7000,695.64,inf,-2763.24
+Família A (com Tarifa Social),"A3 preço 2,45 R$/Wp",A3 · Solar fotovoltaica,2695.0,1207.08,2.28,5754.02
+Família A (com Tarifa Social),"A3 preço 4,20 R$/Wp",A3 · Solar fotovoltaica,4620.0,1207.08,3.96,3829.02
+Família A (com Tarifa Social),A2 tarifa +3%/ano real,A2 · Aquecedor solar de água,5000,695.64,7.69,-96.32
+Família A (com Tarifa Social),A3 tarifa +3%/ano real,A3 · Solar fotovoltaica,3740.0,1207.08,3.09,5793.02
+Família B (sem Tarifa Social),base,A1 · Eficiência e hábitos,72.0,694.2,0.1,5037.37
+Família B (sem Tarifa Social),base,A2 · Aquecedor solar de água,5000,695.64,8.69,-763.24
+Família B (sem Tarifa Social),base,A3 · Solar fotovoltaica,5610.0,1810.68,3.19,7063.54
+Família B (sem Tarifa Social),base,A1+A2 · Hábitos + aquecedor solar,5072.0,1107.12,5.14,2193.29
+Família B (sem Tarifa Social),A1 com só 50% de adesão aos hábitos,A1 · Eficiência e hábitos,72.0,347.16,0.21,2483.13
+Família B (sem Tarifa Social),A2 custo mínimo (R$ 4.180),A2 · Aquecedor solar de água,4180,695.64,7.26,56.76
+Família B (sem Tarifa Social),A2 custo alto (R$ 7.000),A2 · Aquecedor solar de água,7000,695.64,inf,-2763.24
+Família B (sem Tarifa Social),"A3 preço 2,45 R$/Wp",A3 · Solar fotovoltaica,4042.5,1810.68,2.28,8631.04
+Família B (sem Tarifa Social),"A3 preço 4,20 R$/Wp",A3 · Solar fotovoltaica,6930.0,1810.68,3.96,5743.54
+Família B (sem Tarifa Social),A2 tarifa +3%/ano real,A2 · Aquecedor solar de água,5000,695.64,7.69,-96.32
+Família B (sem Tarifa Social),A3 tarifa +3%/ano real,A3 · Solar fotovoltaica,5610.0,1810.68,3.09,8689.54

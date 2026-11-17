@@ -1,0 +1,11 @@
+GLOBAL SOLUTION 2026.2 - CITIZEN ASSIST AI
+Disciplina: Solucoes em Energias Renovaveis e Sustentaveis
+Turma: 1CC
+
+Integrantes:
+- [Nome completo] - RM [00000]
+- [Nome completo] - RM [00000]
+- [Nome completo] - RM [00000]
+
+Repositorio GitHub: https://github.com/[usuario]/citizen-assist-ai
+Video YouTube (nao listado): https://youtu.be/[id]
