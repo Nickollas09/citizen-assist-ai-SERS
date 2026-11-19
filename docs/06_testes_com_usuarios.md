@@ -11,6 +11,7 @@ Verificar se as orientações de energia do Citizen Assist AI são **compreendid
 - **Privacidade:** registrar apenas um código (P1, P2…), faixa etária e se recebe Tarifa Social (sim/não/não sabe). **Não** registrar nome, endereço, CPF, nº de cliente nem foto da conta. A interface web não grava as mensagens.
 - **Duração:** ~10 minutos por pessoa, no celular ou computador com `python -m app.web`.
 - **Método:** a pessoa usa sozinha; o avaliador só observa e anota dúvidas (pensar em voz alta).
+- **Ficha para imprimir:** [`ficha_teste_usuario.md`](ficha_teste_usuario.md), com as tarefas, as perguntas de entendimento e o questionário.
 
 ## 6.3 Situações testadas
 

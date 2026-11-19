@@ -33,7 +33,7 @@ def main():
         if msg.lower() in {"sair", "exit", "quit"}:
             break
         print("\nAssistente:\n" + limpar_markdown(bot.responder(msg)))
-    print("Até mais! Economizar energia é bom para o bolso e para o planeta. 🌱")
+    print("Até mais! Economizar energia é bom para o bolso e para o planeta.")
 
 
 if __name__ == "__main__":

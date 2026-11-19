@@ -52,11 +52,11 @@ def prazo(anos):
 
 
 def fontes(*ids):
-    return "📚 Fontes: " + "; ".join(f"[{i}] {P.FONTES[i]}" for i in ids)
+    return "Fontes: " + "; ".join(f"[{i}] {P.FONTES[i]}" for i in ids)
 
 
 def limites(*itens):
-    return "⚠️ Limitações: " + " ".join(itens) + " " + AVISO
+    return "Limitações: " + " ".join(itens) + " " + AVISO
 
 
 # ---------------------------------------------------------------------------
@@ -146,7 +146,7 @@ class AssistenteEnergia:
 
     def iniciar_simulacao(self):
         self.sessao.aguardando = "kwh"
-        return ("Vamos estimar a sua conta e onde dá para economizar. 🧮\n"
+        return ("Vamos estimar a sua conta e onde dá para economizar.\n"
                 "1/3 · Quantos **kWh** a sua casa consumiu no último mês? Esse número fica na "
                 "conta de luz, no campo *Consumo* ou no gráfico de histórico. "
                 "Se não souber, responda **não sei** que eu uso uma família de referência (≈198 kWh).")
@@ -197,7 +197,7 @@ class AssistenteEnergia:
                   f"• Seu chuveiro gasta cerca de **{num(p.chuveiro_kwh)} kWh/mês** "
                   f"({num(100 * p.chuveiro_kwh / max(p.consumo_kwh, 1))}% do consumo)."]
         if p.consumo_informado_kwh is not None and p.chuveiro_kwh > 0.8 * p.consumo_informado_kwh:
-            partes.append(f"• ⚠️ Com {p.banhos_dia} banhos de {num(p.minutos_banho)} min por dia, o chuveiro gastaria quase "
+            partes.append(f"• Atenção: com {p.banhos_dia} banhos de {num(p.minutos_banho)} min por dia, o chuveiro gastaria quase "
                           "tudo (ou mais) do que a conta mostra. Me conte quantos banhos e minutos são de verdade, "
                           "ou confira a potência na etiqueta do chuveiro.")
         if p.tarifa_social and p.consumo_kwh <= P.TSEE_FAIXA_GRATUITA.valor:
@@ -213,7 +213,7 @@ class AssistenteEnergia:
             partes.append(f"**Placas solares ({num(a3.detalhes['kwp'], 2)} kWp):** ≈ {reais(a3.economia_ano1 / 12)}/mês "
                           f"no 1º ano, investimento ~{reais(a3.investimento)}, retorno em {prazo(a3.payback_anos)}.")
         if not self.sessao.tarifa_social_informada:
-            partes.append("\nℹ️ Considerei que você tem Tarifa Social. Se não tiver, me diga "
+            partes.append("\nObservação: considerei que você tem Tarifa Social. Se não tiver, me diga "
                           "\"não tenho tarifa social\" que eu refaço a conta.")
         partes.append("\n" + limites("Tarifa Enel SP (B1) após o reajuste de jul/2026.",
                                      "Consumo do chuveiro calculado com 5.500 W."))
@@ -224,7 +224,7 @@ class AssistenteEnergia:
     # Respostas temáticas
     # ------------------------------------------------------------------
     def ajuda(self):
-        return ("Olá! Sou o módulo de **energia** do Citizen Assist AI. ⚡ Ajudo famílias a "
+        return ("Olá! Sou o módulo de **energia** do Citizen Assist AI. Ajudo famílias a "
                 "entender e reduzir a conta de luz. Experimente perguntar:\n"
                 "• *simular minha conta*\n• *como economizar no chuveiro?*\n"
                 "• *vale a pena colocar placa solar?*\n• *aquecedor solar compensa?*\n"
@@ -294,7 +294,7 @@ class AssistenteEnergia:
                 "O que passar de 80 kWh é cobrado pela tarifa normal. O benefício é automático, mas a conta precisa "
                 "estar no nome de alguém da família e o CadÚnico precisa estar **atualizado** — cadastro antigo faz "
                 "perder o desconto. Dúvidas: CRAS da sua cidade ou a Enel.\n"
-                "💡 Por isso, para quem tem a Tarifa Social, cada kWh economizado ACIMA de 80 kWh vale a tarifa cheia "
+                "Por isso, para quem tem a Tarifa Social, cada kWh economizado ACIMA de 80 kWh vale a tarifa cheia "
                 f"(~{reais(P.TARIFA_COM_TRIBUTOS.valor)}).\n"
                 + limites("Regras podem mudar; confirme na distribuidora. Iluminação pública e outros itens continuam na conta.")
                 + "\n" + fontes("R3"))
@@ -346,7 +346,7 @@ class AssistenteEnergia:
                 "A parte não compensada sobe todo ano: 60% em 2026, 75% em 2027 e 90% em 2028. "
                 f"Na nossa conta isso custa ~{reais(P.FIO_B_SEM_TRIBUTOS.valor * P.FATOR_TRIBUTOS.valor * 0.75)} "
                 "por kWh compensado em 2027. Os créditos valem por 60 meses.\n"
-                "💡 Por isso placa solar NÃO zera a conta, e usar a energia na hora (de dia) rende mais que injetar.\n"
+                "Por isso, placa solar NÃO zera a conta, e usar a energia na hora (de dia) rende mais que injetar.\n"
                 + limites("Valor do Fio B da Enel SP estimado (0,22 R$/kWh sem impostos).")
                 + "\n" + fontes("R4", "R5"))
 
@@ -356,7 +356,7 @@ class AssistenteEnergia:
         linhas = [f"Comparação para {num(p.consumo_kwh)} kWh/mês ({'com' if p.tarifa_social else 'sem'} Tarifa Social), "
                   "mesma casa, mesmos 12 meses e 10 anos de horizonte:\n"]
         for r in res:
-            linhas.append(f"**{r.nome}** {'🌱' if r.renovavel else ''}\n"
+            linhas.append(f"**{r.nome}** {'(renovável)' if r.renovavel else ''}\n"
                           f"   investe {reais(r.investimento)} · economiza ~{reais(r.economia_ano1 / 12)}/mês · "
                           f"retorno {prazo(r.payback_anos)} · saldo em 10 anos {reais(r.economia_acumulada)} · "
                           f"evita {num(r.co2_evitado_kg_ano)} kg CO₂/ano")
@@ -380,7 +380,7 @@ class AssistenteEnergia:
                 "usinas térmicas a gás e carvão são acionadas.\n"
                 f"• Placas solares: −{num(a3.co2_evitado_kg_ano)} kg CO₂ já descontando a fabricação das placas. "
                 "No fim da vida útil (25+ anos) os módulos precisam ser reciclados.\n"
-                "💡 O maior ganho ambiental é **não desperdiçar**: energia que não é usada não precisa ser gerada nem transmitida.\n"
+                "O maior ganho ambiental é **não desperdiçar**: energia que não é usada não precisa ser gerada nem transmitida.\n"
                 + limites("Fator médio anual; em meses secos com mais térmicas o benefício é maior.")
                 + "\n" + fontes("R14", "R15", "R16"))
 

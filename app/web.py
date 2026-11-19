@@ -39,7 +39,7 @@ form{display:flex;gap:8px;position:sticky;bottom:0;background:var(--bg);padding:
 input{flex:1;font-size:17px;padding:12px;border-radius:10px;border:1px solid var(--borda);background:var(--card);color:var(--txt)}
 form button{background:var(--pri);color:#fff;border:none;border-radius:10px;padding:0 18px;font-size:17px;cursor:pointer}
 </style></head><body><main>
-<h1>⚡ Citizen Assist AI · Energia consciente</h1>
+<h1>Citizen Assist AI · Energia consciente</h1>
 <p class="sub">Orientações para reduzir a conta de luz, com fontes e limitações de cada estimativa.</p>
 <div class="atalhos" id="atalhos"></div>
 <div id="chat" aria-live="polite"></div>

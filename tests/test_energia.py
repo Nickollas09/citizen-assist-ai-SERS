@@ -102,7 +102,7 @@ def test_pv_nao_compensa_dentro_dos_80_kwh():
 def test_assistente_responde_com_fontes_e_limitacoes(pergunta, trecho):
     r = AssistenteEnergia().responder(pergunta)
     assert trecho in r
-    assert "📚 Fontes" in r and "⚠️ Limitações" in r
+    assert "Fontes:" in r and "Limitações:" in r
 
 
 def test_resposta_do_assistente_coerente_com_a_analise():

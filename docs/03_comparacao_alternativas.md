@@ -17,7 +17,7 @@ Código: [`energia/cenarios.py`](../energia/cenarios.py) · Tabelas: [`resultado
 
 Investimento: 6 LEDs × R$ 12 = **R$ 72**. Economia: 57,1 × 1,0135 ≈ **R$ 57,85/mês = R$ 694/ano**. Retorno ≈ **1 mês**.
 
-## 3.2 A2 — Aquecedor solar de água (🌱 renovável térmica)
+## 3.2 A2 — Aquecedor solar de água (renovável térmica)
 
 - Sistema de 200 L com ~3 m² de coletores, adequado para 3–4 pessoas [R12, R13].
 - **Fração solar 65%** (estimada): o sol fornece 65% da energia de aquecimento no ano; o chuveiro continua como apoio em dias nublados.
@@ -25,7 +25,7 @@ Investimento: 6 LEDs × R$ 12 = **R$ 72**. Economia: 57,1 × 1,0135 ≈ **R$ 57,
 - Investimento: **R$ 5.000** (estudo de caso: R$ 4.180 [R12]; mercado pode passar de R$ 7.000 [R13]).
 - Retorno simples: 5.000 ÷ (695,64 − 120) ≈ **8,7 anos**.
 
-## 3.3 A3 — Solar fotovoltaica conectada à rede (🌱 renovável elétrica)
+## 3.3 A3 — Solar fotovoltaica conectada à rede (renovável elétrica)
 
 **Geração por kWp em SP:** 4,632 kWh/m².dia (plano inclinado, RMSP [R7]) × PR 0,75 × 365 ÷ 12 = **105,7 kWh/mês por kWp**.
 

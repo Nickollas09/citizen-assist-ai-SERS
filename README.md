@@ -1,10 +1,10 @@
-# ⚡ Citizen Assist AI · Energia consciente para famílias de baixa renda
+# Citizen Assist AI · Energia consciente para famílias de baixa renda
 
 > **Global Solution 2026.2 — Ciência da Computação (1CC)**
 > **Contribuição da disciplina: Soluções em Energias Renováveis e Sustentáveis (SERS)**
 > Tudo o que está nas pastas `energia/`, `dados/`, `resultados/`, `docs/` e `tests/` é a contribuição de SERS.
 
-## 👥 Integrantes
+## Integrantes
 
 | Nome completo | RM |
 |---|---|
@@ -12,7 +12,7 @@
 | [Nome do integrante 2] | [RM] |
 | [Nome do integrante 3] | [RM] |
 
-🎥 **Vídeo técnico (YouTube, não listado):** [colar link]
+**Vídeo técnico (YouTube, não listado):** [colar link]
 
 ---
 
@@ -31,10 +31,10 @@ Família de referência: 4 pessoas, **198 kWh/mês**, Enel SP, tarifa de **R$ 1,
 | Alternativa | Renovável | Investimento | Economia no 1º ano | Retorno | Saldo em 10 anos | CO₂ evitado/ano |
 |---|:-:|--:|--:|--:|--:|--:|
 | **A1** Eficiência + hábitos (LED, banho, posição verão, geladeira) | — | R$ 72 | R$ 694 | ~1 mês | R$ 6.870 | 41 kg |
-| **A2** Aquecedor solar de água (200 L) | 🌱 | R$ 5.000 | R$ 696 | 8,7 anos | R$ 756 | 41 kg |
-| **A3** Solar fotovoltaica on-grid — Família A (com Tarifa Social), 1,10 kWp | 🌱 | R$ 3.740 | R$ 1.207 | 3,2 anos | R$ 7.701 | 26 kg |
-| **A3** Solar fotovoltaica on-grid — Família B (sem Tarifa Social), 1,65 kWp | 🌱 | R$ 5.610 | R$ 1.811 | 3,2 anos | R$ 11.551 | 40 kg |
-| **A1+A2** Hábitos + aquecedor solar | 🌱 | R$ 5.072 | R$ 1.107 | 5,1 anos | R$ 4.799 | 65 kg |
+| **A2** Aquecedor solar de água (200 L) | Sim | R$ 5.000 | R$ 696 | 8,7 anos | R$ 756 | 41 kg |
+| **A3** Solar fotovoltaica on-grid — Família A (com Tarifa Social), 1,10 kWp | Sim | R$ 3.740 | R$ 1.207 | 3,2 anos | R$ 7.701 | 26 kg |
+| **A3** Solar fotovoltaica on-grid — Família B (sem Tarifa Social), 1,65 kWp | Sim | R$ 5.610 | R$ 1.811 | 3,2 anos | R$ 11.551 | 40 kg |
+| **A1+A2** Hábitos + aquecedor solar | Sim | R$ 5.072 | R$ 1.107 | 5,1 anos | R$ 4.799 | 65 kg |
 
 ![Conta mensal por alternativa](resultados/graficos/02_conta_mensal_por_alternativa.png)
 
@@ -60,7 +60,7 @@ Análise completa: [`docs/02_analise_consumo.md`](docs/02_analise_consumo.md) ·
 | "cuidados ao contratar" | checklist contra promessas enganosas |
 | "quais as fontes?" / "quais as limitações?" | referências e premissas |
 
-**Toda resposta numérica traz 📚 fontes e ⚠️ limitações** e é calculada na hora pelo mesmo código da análise (`energia/cenarios.py`) — o assistente nunca usa número "decorado". Optamos por regras (palavras-chave) em vez de IA generativa para garantir coerência com a análise e permitir auditoria.
+**Toda resposta numérica traz fontes e limitações** e é calculada na hora pelo mesmo código da análise (`energia/cenarios.py`) — o assistente nunca usa número "decorado". Optamos por regras (palavras-chave) em vez de IA generativa para garantir coerência com a análise e permitir auditoria.
 
 ## 4. Como executar
 
@@ -101,6 +101,7 @@ citizen-assist-ai/
 │   ├── 04_recomendacoes_e_limitacoes.md
 │   ├── 05_referencias.md
 │   ├── 06_testes_com_usuarios.md
+│   ├── ficha_teste_usuario.md   ficha para imprimir nos testes
 │   └── roteiro_video.md
 ├── tests/test_energia.py
 ├── entrega.txt              modelo do arquivo de entrega
@@ -113,4 +114,4 @@ citizen-assist-ai/
 - Limitações das estimativas: [`docs/04_recomendacoes_e_limitacoes.md`](docs/04_recomendacoes_e_limitacoes.md)
 - Testes com usuários (protocolo, registros e ajustes): [`docs/06_testes_com_usuarios.md`](docs/06_testes_com_usuarios.md)
 
-> ⚠️ Os valores são **estimativas** para orientação. Não substituem orçamento técnico, projeto elétrico ou informação da distribuidora.
+> **Atenção:** os valores são **estimativas** para orientação. Não substituem orçamento técnico, projeto elétrico ou informação da distribuidora.
