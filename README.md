@@ -6,13 +6,11 @@
 
 ## Integrantes
 
-| Nome completo | RM |
-|---|---|
-| [Nome do integrante 1] | [RM] |
-| [Nome do integrante 2] | [RM] |
-| [Nome do integrante 3] | [RM] |
-
-**Vídeo técnico (YouTube, não listado):** [colar link]
+- Nickollas Korner - RM: 569655
+- João Pedro Ferrari - RM: 573037
+- Vitor Nascimento - RM: 571873
+  
+Link Video YouTube: https://youtu.be/wffWbRREPGs
 
 ---
 

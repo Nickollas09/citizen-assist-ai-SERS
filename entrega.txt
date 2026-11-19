@@ -1,11 +1,11 @@
 GLOBAL SOLUTION 2026.2 - CITIZEN ASSIST AI
 Disciplina: Solucoes em Energias Renovaveis e Sustentaveis
-Turma: 1CC
+Turma: 1CCA
 
 Integrantes:
-- [Nome completo] - RM [00000]
-- [Nome completo] - RM [00000]
-- [Nome completo] - RM [00000]
+- Nickollas Korner - RM: 569655
+- João Pedro Ferrari - RM: 573037
+- Vitor Nascimento - RM: 571873
 
-Repositorio GitHub: https://github.com/[usuario]/citizen-assist-ai
-Video YouTube (nao listado): https://youtu.be/[id]
+Repositorio GitHub: https://github.com/Nickollas09/citizen-assist-ai-SERS.git
+Link Video YouTube: https://youtu.be/wffWbRREPGs
